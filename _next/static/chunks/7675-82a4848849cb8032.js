@@ -4320,6 +4320,11 @@
                 var t, n = e.subscription,
                     r = e.spaceID;
                 return (null === n || void 0 === n ? void 0 : n.product_id) === d.Uw || (null === n || void 0 === n ? void 0 : n.status) !== i.ACTIVE || (null === n || void 0 === n || null === (t = n.metadata) || void 0 === t ? void 0 : t.affiliate) ? (0, o.jsx)(l(), {
+                    href: "".concat(d.og, "?utm_source=watermark:").concat(r),
+                    children: (0, o.jsxs)("a", {
+                        target: "_new",
+                        className: s().watermark,
+                        children: ["Made in", " ", d.i5]
                     })
                 }) : null
             }
