@@ -4320,11 +4320,11 @@
                 var t, n = e.subscription,
                     r = e.spaceID;
                 return (null === n || void 0 === n ? void 0 : n.product_id) === d.Uw || (null === n || void 0 === n ? void 0 : n.status) !== i.ACTIVE || (null === n || void 0 === n || null === (t = n.metadata) || void 0 === t ? void 0 : t.affiliate) ? (0, o.jsx)(l(), {
-                    href: "".concat(d.og, "?utm_source=watermark:").concat(r),
+                    href: "".concat(d.og, "").concat(r),
                     children: (0, o.jsxs)("a", {
                         target: "_new",
                         className: s().watermark,
-                        children: ["Made in", " ", d.i5]
+                        children: [""]
                     })
                 }) : null
             }
@@ -4379,15 +4379,15 @@
                 }
             });
             var r = "https://api.typedream.com/v0",
-                i = "typedream.app",
+                i = "",
                 o = "https://analytics.typedream.com",
                 a = "build.typedream.com",
-                l = "Typedream",
+                l = "",
                 d = "@typedreamHQ",
                 c = "/images/logo@100.png",
                 s = "https://typedream.com",
                 u = "/favicon.ico",
-                m = "A website made with Typedream.",
+                m = "",
                 h = "FREE",
                 p = "id",
                 v = "ITEM_PAGE_URL",
