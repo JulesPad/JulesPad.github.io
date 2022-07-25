@@ -4319,7 +4319,9 @@
             var u = function(e) {
                 var t, n = e.subscription,
                     r = e.spaceID;
-                return;
+                return (null === n || void 0 === n ? void 0 : n.product_id) === d.Uw || (null === n || void 0 === n ? void 0 : n.status) !== i.ACTIVE || (null === n || void 0 === n || null === (t = n.metadata) || void 0 === t ? void 0 : t.affiliate) ? (0, o.jsx)(l(), {
+                    })
+                }) : null
             }
         },
         1438: function(e, t, n) {
