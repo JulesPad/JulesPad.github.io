@@ -1,0 +1,10 @@
+# Local / private — must never deploy
+_private/
+*.docx
+*.doc
+
+# OS / tooling cruft
+.DS_Store
+__pycache__/
+_extracted.txt
+_clean.txt
